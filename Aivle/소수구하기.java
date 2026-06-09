@@ -5,8 +5,8 @@ import java.util.Arrays;
 //중요!!! 에라토스테네스의 체 이해하기.
 public class 소수구하기 {
     static boolean[] prime;
-    static int cnt = 0;
     static int isPrime(int N){
+        int cnt = 0;
         prime = new boolean[N+1];
         Arrays.fill(prime, true);
         prime[0] = prime[1] = false;    //소수 x : false, 소수 o : true

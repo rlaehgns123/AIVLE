@@ -1,9 +1,5 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 public class 아이디 {
     public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String s = br.readLine();
-        System.out.println((s.length()>20?"I":"P"));
+        System.out.println(new java.io.BufferedReader(new java.io.InputStreamReader(System.in)).readLine().length() >20?"I":"P");
     }
 }
